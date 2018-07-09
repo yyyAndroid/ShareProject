@@ -1,4 +1,4 @@
-package com.jumi.shareproject;
+package com.dwwd.dwlibrary;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.jumi.shareproject", appContext.getPackageName());
+        assertEquals("com.dwwd.dwlibrary.test", appContext.getPackageName());
     }
 }

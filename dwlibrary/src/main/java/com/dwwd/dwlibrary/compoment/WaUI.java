@@ -4,7 +4,7 @@
  * Last modified: 17-5-7 下午5:47
  */
 
-package com.jumi.shareproject.utils;
+package com.dwwd.dwlibrary.compoment;
 
 import android.annotation.SuppressLint;
 import android.content.Context;

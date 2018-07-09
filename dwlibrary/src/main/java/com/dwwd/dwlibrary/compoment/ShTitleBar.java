@@ -1,11 +1,10 @@
-package com.jumi.shareproject.compoment;
+package com.dwwd.dwlibrary.compoment;
 
 import android.content.Context;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import com.jumi.shareproject.R;
-import com.jumi.shareproject.utils.WaUI;
+
 
 /**
  * Created by abe on 2018/6/16.
@@ -17,7 +16,7 @@ public class ShTitleBar extends ViewGroup{
     public ShTitleBar(Context context) {
         super(context);
 
-        setBackgroundResource(R.color.colorAccent);
+        setBackgroundColor(0xffaaaaaa);
 
         mTitle = new TextView(context);
         mTitle.setText("标题");
